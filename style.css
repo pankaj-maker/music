@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family: Inter;
+    }
+}
+body{
+    background-color: rgba(241, 226, 228, 0.482);
+    font-family: Inter;
+}
+
+
+.icon{
+    width: 20px;
+    }
+.icon2{
+    width: 75px;
+}
+.icon3{
+    width: 50px;
+}
+
+header{
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+nav,a{
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.B1{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+}
