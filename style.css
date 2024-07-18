@@ -17,6 +17,7 @@ body{
     }
 .icon2{
     width: 75px;
+    background-color: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
 }
 .icon3{
     width: 50px;
@@ -47,4 +48,38 @@ nav,a{
 h1{
     font-size: 60px;
     font-weight: 500;
+    line-height: 1;
+}
+main, footer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+main{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left{
+    display:flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+    
+
+main p{
+    line-height: 1.5;
+}
+main button{
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}  
+.left .gradient{
+    background-color: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
 }
