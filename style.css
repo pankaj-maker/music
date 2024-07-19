@@ -44,6 +44,8 @@ nav,a{
     cursor: pointer;
     background-color: whitesmoke;
     color: black;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     font-size: 60px;
@@ -66,6 +68,20 @@ main{
     justify-content: center;
     gap: 20px;
 }
+.left .gradient {
+    background: radial-gradient(
+      circle at top left,
+      #099ef1 0%,
+      #6863f8 18.82%,
+      #d84ffa 32.6%,
+      #f058c5 52.83%,
+      #ff4f90 68.03%,
+      #ff6558 87.66%,
+      #ff891f 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
     
 
@@ -83,3 +99,44 @@ main button{
 .left .gradient{
     background-color: radial-gradient(circle at top left,#099ef1 0%,#6863f8 18.82%,#d84ffa 32.6%,#f058c5 52.83%,#ff4f90 68.03%,#ff6558 87.66%,#ff891f 100%);
 }
+
+footer{
+    border-top: 1px solid black;
+}
+footer .primary {
+    margin: 10px 0;
+  }
+  
+  footer .text-links {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  footer .icon {
+    fill: var(--gray-white);
+    height: 20px;
+    width: 50px;
+    justify-content: start;
+  }
+  
+  footer .icon-links {
+    font-size: 20px;
+  }
+  
+  footer .secondary {
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+
+
+.flex {
+    display: flex;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .cursor {
+    cursor: pointer;
+  }
